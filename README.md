@@ -1,4 +1,4 @@
-# Body-On-Track
+# body-on-track
 
 This project produces a real-time simulation of a point mass interacting with a track defined by a parametric curve. The simulation time steps are carried out by use of the RK4 integration method to solve the appropriate differential equations describing the motion of the point mass depending on its current state. Collissions between the point mass and the track are handeled using a binary search roll-back procedure and the appropriate vector arithmatic. Forces allowed to act on the point mass are gravity, friction, air drag, normal force, and spring force.
 

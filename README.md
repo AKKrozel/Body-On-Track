@@ -12,7 +12,8 @@ Two .mp4 files are included to display runs of the real-time simulation with var
 
 ## Potential Improvements
 
--finding the closest point could be sped up (bounding boxes / binary search)
+-finding the closest point could be sped up (bounding boxes / binary search)\
 -time progression works so that when a collision occurs, the current time step is abruptly ended and a new one is started. To make animations have consistant smoothness, it would be better to have a set time-step. This would require potentially needing to handle multiple collisions. This is more important if one wishes to simulate multiple objects or add user interactivity
 -collision between objects could be added
+\newline
 -the track is currently set up to use a parametric equation to crate the track. The implimentation of object-track collision only accounts or track shapes that can be given by y=f(x)
